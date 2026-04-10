@@ -1,218 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Videos</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
-      crossorigin="anonymous"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/project.css" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Videos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link rel="stylesheet" type="text/css" href="./css/project.css" />
 
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
-    <!-- ScrollSmoother requires ScrollTrigger -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollToPlugin.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/TextPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 
-    <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/EasePack.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/CustomEase.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <!-- ScrollSmoother requires ScrollTrigger -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollToPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/TextPlugin.min.js"></script>
 
-    <script src="./javascript/projects.js"></script>
+  <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/EasePack.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/CustomEase.min.js"></script>
 
-    <script type="text/javascript"></script>
-  </head>
-  <body>
-    <!-- Top of Page -->
-    <header>
-      <h1 class="logo"><a href="index.html">Ben</a></h1>
+  <script src="./javascript/projects.js"></script>
+
+  <script type="text/javascript"></script>
+</head>
+
+<body>
+  <!-- Top of Page -->
+  <header>
+    <h1 class="logo"><a href="index.html">Ben</a></h1>
+    <nav id="main-nav">
+      <ul class="menu nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Portfolio
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="./MyCode.html">My Code</a>
+            </li>
+            <!-- <li>
+              <a class="dropdown-item" href="./MyAudio.html">My Audio</a>
+            </li> -->
+            <li>
+              <a class="dropdown-item" href="./MyVideos.html">My Videos</a>
+            </li>
+            <!-- <li>
+              <a class="dropdown-item" href="./My3D.html">My 3D Models</a>
+            </li> -->
+            <li>
+              <a class="dropdown-item" href="./MyImages.html">My Images</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./AboutMe.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./ContactMe.html">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Code goes here -->
+  <h2>My Videos</h2>
+
+  <main>
+    <div class="container">
+      <div class="project">
+        <h3>Motion Capture Test (2026)</h3>
+        <article class="left">
+          <a class="thumb" href="https://youtu.be/lHoHrQhyWNA" target="_blank"><img src="./img/MoCapTest.png"
+              alt="Photo of a futuristic man in front of a warehouse" /></a>
+          <p>
+            Created as a project for a class, this video showcases two futuristic men have a pretend shoot off, which
+            accidentally ends in tragedy. Animated using Motive, MotionBuilder, and Unreal Engine. Audio and Video done
+            in Adobe Premiere and REAPER.
+          </p>
+        </article>
+      </div>
+
+      <div class="project">
+        <h3>
+          Grief: Love With No Place To Go (2025)</h3>
+        <article class="left">
+          <a class="thumb" href="https://www.youtube.com/watch?v=e5-_Bebollk" target="_blank"><img
+              src="./img/GriefFilm.png"
+              alt="Image of a man walking with his back to the camera as the words, 'Grief: Love With No Place to Go', is displayed in front of him" /></a>
+          <p>
+            Directed and produced for Sessions Cafe TV, <i>Grief</i> is an award-winning short documentary exploring
+            Keri
+            Singleton’s emotional journey following the loss of his father. The film focuses on the personal process of
+            navigating grief and reflection through an intimate interview with an end-of-life doula. Edited using Adobe
+            Premiere
+            Pro.
+          </p>
+        </article>
+      </div>
+
+      <div class="project">
+        <h3>Life (2025)</h3>
+        <article class="left">
+          <a class="thumb" href="https://youtu.be/35JlrmRs64Q" target="_blank"><img src="./img/LifeFilm.png"
+              alt="Photo of a blue backroom with scrapbook lettering spelling out the word 'Life'" /></a>
+          <p>
+            Created using nearly 1,000 unique still images, <i>Life</i> tells a short story following a man’s journey
+            from
+            birth to death. Photography was captured using Dragonframe, with post-production completed in
+            Adobe Premiere Pro.
+          </p>
+        </article>
+      </div>
+
+      <div class="project">
+        <h3>Mando Hates Dubstep (2020)</h3>
+        <article class="left">
+          <a class="thumb" href="https://www.youtube.com/watch?v=NvJcRFtkT0U" target="_blank"><img src="./img/Mando.png"
+              alt="Photo of a dark trooper helmet from Star Wars" /></a>
+          <p>
+            Inspired by the Season 2 finale of <i>The Mandalorian</i>, created a fan-edit blending key moments from the
+            episode
+            with a royalty-free dubstep track as a stylistic callback to the viral Star Wars edit “The Techno Union.”
+            The project focuses on rhythm, pacing, and synchronization between visuals and music, and it has amassed
+            over 170,000 views on YouTube. Edited using Adobe
+            Premiere Pro.
+          </p>
+        </article>
+      </div>
+
+      <div class="project">
+        <h3>Future Casting Project (2020)</h3>
+        <article class="right">
+          <a class="thumb" href="https://www.youtube.com/watch?v=MeNDm62f6MM" target="_blank"><img
+              src="./img/FutureCasting.png" alt="some videos I have (placeholder for now)" /></a>
+          <p>
+            Created an experimental video for a class project exploring the concept of a hypothetical full-body haptic
+            feedback VR suit. The suit was first modeled in Blender and then imported into Unity for integration. Final
+            footage was captured in <i>VRChat</i>, using the virtual environment as a testing and performance space,
+            before
+            being edited in Adobe Premiere Pro.
+          </p>
+        </article>
+      </div>
+
+      <div class="project">
+        <h3>
+          The Two Most Controversial Rules in Rehydrated Speedrunning History
+          (2020)
+        </h3>
+        <article class="left">
+          <a class="thumb" href="https://www.youtube.com/watch?v=PE0DjGB0gZY" target="_blank"><img
+              src="./img/SpeedrunHistory.png" alt="A Spongebob Squarepants-styled font asking 'What Happened?'" /></a>
+          <p>
+            Produced a documentary-style video outlining two rules within the <i>Spongebob: Battle for Bikini Bottom
+              Rehydrated</i> speedrunning community. Using
+            footage sourced with permission from original creators, I aimed to replicate the informative and analytical
+            style commonly seen in speedrunning-focused content. The project emphasizes clarity, pacing, and community
+            context. Edited using Adobe Premiere Pro.
+          </p>
+        </article>
+      </div>
+
+      <div class="project">
+        <h3>VR Twins (2020)</h3>
+        <article class="right">
+          <a class="thumb" href="https://www.youtube.com/watch?v=4c57kS-UsNM" target="_blank"><img
+              src="./img/VRTwins.png" alt="Me picking up a VR Headset" /></a>
+          <p>
+            Created a narrative video exploring the concept of a person’s actions being controlled by an external force,
+            inspired by <i>Being John Malkovich</i>. Filmed remotely during the COVID-19 quarantine, the project
+            required
+            careful coordination to plan shots, align performances, and visualize the final edit without in-person
+            collaboration. Edited using Adobe
+            Premiere Pro.
+          </p>
+        </article>
+      </div>
+
+      <div class="project">
+        <h3>Just WHAT Troubles Them Today? (2020)</h3>
+        <article class="right">
+          <a class="thumb" href="https://www.youtube.com/watch?v=zzWhnzSEW70" target="_blank"><img src="./img/JWTTT.png"
+              alt="Winston from Overwatch with text in front of him" /></a>
+          <p>
+            Created an experimental video produced entirely within Overwatch, using the game environment as a virtual
+            film set. The project explores concepts from an AP Macroeconomics unit, with all footage captured in
+            spectator mode. I directed an in-game performer to pantomime as the on-screen host while providing voiceover
+            narration, blending gameplay visuals with educational content. Recorded in Overwatch and edited using Adobe
+            Premiere Pro.
+          </p>
+        </article>
+      </div>
+
+      <div class="project">
+        <h3>Confuseral (2019)</h3>
+        <article class="right">
+          <a class="thumb" href="https://www.youtube.com/watch?v=ePVIfh_po98" target="_blank"><img
+              src="./img/Confuseral.png" alt="The buy screen from an informercial" /></a>
+          <p>
+            As director, cinematographer, and editor, I produced a satirical infomercial inspired by <i>1984</i>,
+            centered
+            around a fictional product.
+            The piece blends classic “as-seen-on-TV” infomercial aesthetics with scripted skits, marking
+            several first-time creative and technical experiences. Edited using Adobe Premiere Pro and Adobe After
+            Effects.
+          </p>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div>
       <nav id="main-nav">
-        <ul class="menu nav">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Portfolio
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="./MyCode.html">My Code</a></li>
-              <li>
-                <a class="dropdown-item" href="./MyVideos.html">My Videos</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="./MyImages.html">My Images</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./AboutMe.html">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./ContactMe.html">Contact Me</a>
-          </li>
+        <ul class="closer">
+          <li><a href="./index.html">Portfolio</a></li>
+          <li><a href="./AboutMe.html">About Me</a></li>
+          <li><a href="./ContactMe.html">Contact Me</a></li>
         </ul>
       </nav>
-    </header>
+      <p>© 2026 Benjamin Evelson. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
 
-    <!-- Code goes here -->
-    <h2>My Videos</h2>
-
-    <main>
-      <div class="container">
-        <div class="project">
-          <h3>Mando Hates Dubstep (2020)</h3>
-          <article class="left">
-            <a
-              class="thumb"
-              href="https://www.youtube.com/watch?v=NvJcRFtkT0U"
-              target="_blank"
-              ><img
-                src="./img/Mando.png"
-                alt="Photo of a dark trooper helmet from Star Wars"
-            /></a>
-            <p>
-              Created after the season 2 finale of the Mandalorian, I combined
-              aspects of the episode with a royalty-free dubstep beat as a
-              callback to a prior viral Star Wars video, "The Techno Union".
-              Video made in Adobe Premiere.
-            </p>
-          </article>
-        </div>
-
-        <div class="project">
-          <h3>Future Casting Project (2020)</h3>
-          <article class="right">
-            <a
-              class="thumb"
-              href="https://www.youtube.com/watch?v=MeNDm62f6MM"
-              target="_blank"
-              ><img
-                src="./img/FutureCasting.png"
-                alt="some videos I have (placeholder for now)"
-            /></a>
-            <p>
-              An experimental video created for a class project. Focusing on a
-              hypothetical fullbody feedback VR suit, the suit was modeled in
-              Blender before being exported into Unity. Recording took place in
-              VRChat before editing in Adobe Premiere.
-            </p>
-          </article>
-        </div>
-
-        <div class="project">
-          <h3>
-            The Two Most Controversial Rules in Rehydrated Speedrunning History
-            (2020)
-          </h3>
-          <article class="left">
-            <a
-              class="thumb"
-              href="https://www.youtube.com/watch?v=PE0DjGB0gZY"
-              target="_blank"
-              ><img
-                src="./img/SpeedrunHistory.png"
-                alt="A Spongebob Squarepants-styled font asking 'What Happened?'"
-            /></a>
-            <p>
-              A video documenting two rules within the Rehydrated speedrunning
-              community. All footage taken with permission from the original
-              owners, I tried replicating a similar style to others who have
-              created informative documentary-style videos within the
-              speedrunning community. Edited in Adobe Premiere.
-            </p>
-          </article>
-        </div>
-
-        <div class="project">
-          <h3>VR Twins (2020)</h3>
-          <article class="right">
-            <a
-              class="thumb"
-              href="https://www.youtube.com/watch?v=4c57kS-UsNM"
-              target="_blank"
-              ><img src="./img/VRTwins.png" alt="Me picking up a VR Headset"
-            /></a>
-            <p>
-              A video toying around the premise of a person's actions suddenly
-              being hijacked via a third party, similarly to "Being John
-              Malkovich". Recorded remotely during the COVID-19 quarantine, a
-              unique challenge arose where my friend and I had to coordinate
-              remotely to understand what types of shots had to be filmed and
-              how the final product will turn out. Edited in Adobe Premiere.
-            </p>
-          </article>
-        </div>
-
-        <div class="project">
-          <h3>Just WHAT Troubles Them Today? (2020)</h3>
-          <article class="right">
-            <a
-              class="thumb"
-              href="https://www.youtube.com/watch?v=zzWhnzSEW70"
-              target="_blank"
-              ><img
-                src="./img/JWTTT.png"
-                alt="Winston from Overwatch with text in front of him"
-            /></a>
-            <p>
-              An experimental video done entirely within the video game
-              Overwatch. Discussing a unit from my AP Macroeconomics class at
-              the time, everything was recorded from spectator mode in game,
-              with me directing a friend of mine to pantomime as the host as I
-              recorded my voice over the visuals. Recorded in Overwatch and
-              edited in Adobe Premiere.
-            </p>
-          </article>
-        </div>
-
-        <div class="project">
-          <h3>Confuseral (2019)</h3>
-          <article class="right">
-            <a
-              class="thumb"
-              href="https://www.youtube.com/watch?v=ePVIfh_po98"
-              target="_blank"
-              ><img
-                src="./img/Confuseral.png"
-                alt="The buy screen from an informercial"
-            /></a>
-            <p>
-              An informercial for a fake product based on the novel "1984".
-              Plagued with constant rewrites up until the day before the
-              deadline, I helped direct, film, and edit the final product.
-              Trying to replicate the feel of a "as seen on TV" informercial as
-              well as interlacing it with skits, this project provided me with
-              many firsts. Edited in Adobe Premiere and Adobe After Effects.
-            </p>
-          </article>
-        </div>
-      </div>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-      <div>
-        <nav id="main-nav">
-          <ul class="closer">
-            <li><a href="./index.html">Portfolio</a></li>
-            <li><a href="./AboutMe.html">About Me</a></li>
-            <li><a href="./ContactMe.html">Contact Me</a></li>
-          </ul>
-        </nav>
-        <p>© 2025 Benjamin Evelson. All rights reserved.</p>
-      </div>
-    </footer>
-  </body>
 </html>
